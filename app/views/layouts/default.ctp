@@ -25,6 +25,17 @@
 		<div id="header">
 			<h1><?php echo $html->link(__('Jason Poon', true), 'http://jasonpoon.ca'); ?></h1>
 		</div>
+
+        <div id="navigation">
+            <table>
+                <tr><td><a href="/pages/home">home</a></td></tr>
+                <tr><td><a href="/pages/about">about</a><td></tr>
+                <tr><td><a href="/pages/about">resume</a><td></tr>
+                <tr><td><a href="/pages/about">portfolio</a><td></tr>
+                <tr><td><a href="/pages/about">contact</a><td></tr>
+            </table>
+        </div>
+
 		<div id="content">
 
 			<?php $session->flash(); ?>
@@ -32,7 +43,9 @@
 			<?php echo $content_for_layout; ?>
 
 		</div>
+
 		<div id="footer">
+            Footer
             <!--VlexoFree_LinkBack-->
 		</div>
 	</div>
