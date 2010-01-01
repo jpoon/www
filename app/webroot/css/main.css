@@ -5,7 +5,7 @@
 
 /* General Style Info */
 body {
-    background:#474747 url('../img/bg.png') repeat-x top;
+    background:#191919 url('../img/bg.png') repeat-x top;
     color:#ffffff;
 	font-family:'lucida grande',verdana,helvetica,arial,sans-serif;
 	font-size:90%;
@@ -90,10 +90,14 @@ ul, li {
 }
 #footer {
 	clear: both;
+    color: #000000;
     font-size: 70%;
 	padding: 10px 0px;
 	text-align: center;
-    border-top:1px dashed #ffffff;
+    border-top:1px dashed #000000;
+}
+#footer a {
+    color: #000000;
 }
 
 /* Tables */
