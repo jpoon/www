@@ -5,17 +5,17 @@
 
 /* General Style Info */
 body {
-    background:#000000 url('../img/bg.png') repeat-x top;
+    background:#474747 url('../img/bg.png') repeat-x top;
     color:#ffffff;
 	font-family:'lucida grande',verdana,helvetica,arial,sans-serif;
 	font-size:90%;
 }
 a {
-	color: #ff7e00;
+	color: #ff9c08;
 	text-decoration: underline;
 }
 a:hover {
-	color: #ff7e00;
+	color: #ff9c08;
 	text-decoration:none;
 }
 a img {
@@ -54,17 +54,20 @@ ul, li {
 #container {
 	text-align: left;
     margin:0px auto;
-    width:900px;
+    width:800px;
 }
 
 #header {
+    margin-left:-50px;
     height:100px;
 }
 #navigation {
     float:left;
-    margin:0px 0px 0px 50px;
-    width:145px;
     text-align:left;
+    width:125px;
+}
+#navigation a {
+    color:#ffffff;
 }
     .active {
         color:blue;
@@ -72,28 +75,22 @@ ul, li {
     ul.menu li {
         height: 39px;
     }
-
     ul.menu li#home {
         width:60px;
     }
-
-    /* hide the text, leaving the A tag */
-    ul.menu li a span {
-    }
-
     ul.menu li a {
         height:100%;
         width:100%;
     } 
 
 #content{
-    border:1px solid orange;
     float:right;
-    width:700px;
+    border:1px solid orange;
+    width:650px;
 }
 #footer {
 	clear: both;
-    font-size: 60%;
+    font-size: 70%;
 	padding: 10px 0px;
 	text-align: center;
     border-top:1px dashed #ffffff;
