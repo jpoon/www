@@ -6,6 +6,7 @@
 /* General Style Info */
 body {
     background:#000000 url('../img/bg.png') repeat-x top;
+    color:#ffffff;
 	font-family:'lucida grande',verdana,helvetica,arial,sans-serif;
 	font-size:90%;
 }
@@ -59,29 +60,43 @@ ul, li {
 #header {
     height:100px;
 }
-.clear {
-    clear:both;
-}
-#navigation{
+#navigation {
     float:left;
     margin:0px 0px 0px 50px;
     width:145px;
     text-align:left;
-    border-right:1px dashed #ffffff;
 }
+    .active {
+        color:blue;
+    }
+    ul.menu li {
+        height: 39px;
+    }
+
+    ul.menu li#home {
+        width:60px;
+    }
+
+    /* hide the text, leaving the A tag */
+    ul.menu li a span {
+    }
+
+    ul.menu li a {
+        height:100%;
+        width:100%;
+    } 
+
 #content{
-	background: #fff;
     border:1px solid orange;
     float:right;
-	color: #333;
     width:700px;
 }
 #footer {
 	clear: both;
-    font-size: 75%;
+    font-size: 60%;
 	padding: 10px 0px;
 	text-align: center;
-    border:1px solid blue;
+    border-top:1px dashed #ffffff;
 }
 
 /* Tables */

@@ -27,13 +27,17 @@
 		</div>
 
         <div id="navigation">
-            <table>
-                <tr><td><a href="/pages/home">home</a></td></tr>
-                <tr><td><a href="/pages/about">about</a><td></tr>
-                <tr><td><a href="/pages/about">resume</a><td></tr>
-                <tr><td><a href="/pages/about">portfolio</a><td></tr>
-                <tr><td><a href="/pages/about">contact</a><td></tr>
-            </table>
+            <?php
+            echo $listmenu->create (
+                array(
+                    'Home' => array('controller' => 'pages', 'home'),
+                    'Resume' => array('controller' => 'pages', 'resume'),
+                    'Portfolio' => array('controller' => 'pages', 'portfolio'),
+                    'Contact' => array('controller' => 'pages', 'contact')
+                    ),
+                array('class' => 'menu')    
+            );
+            ?>
         </div>
 
 		<div id="content">
@@ -45,8 +49,7 @@
 		</div>
 
 		<div id="footer">
-            Footer
-            <!--VlexoFree_LinkBack-->
+            Copyright © 2009. Jason Poon. All Rights Reserved | <!--VlexoFree_LinkBack-->
 		</div>
 	</div>
 	<?php echo $cakeDebug; ?>
