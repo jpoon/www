@@ -12,11 +12,11 @@ body {
 }
 a {
 	color: #ff9c08;
-	text-decoration: underline;
+	text-decoration: none;
 }
 a:hover {
-	color: #ff9c08;
-	text-decoration:none;
+	color: #0078a3;
+	text-decoration: underline;
 }
 a img {
 	border:none;
@@ -30,14 +30,12 @@ h1 {
 }
 h2 {
 	color: #e32;
-	font-family:'Gill Sans','lucida grande',helvetica, arial, sans-serif;
 	font-size: 190%;
 	margin: 0.3em 0;
 	padding-top: 0.8em;
 }
 h3 {
 	color: #993;
-	font-family:'Gill Sans','lucida grande',helvetica, arial, sans-serif;
 	font-size: 165%;
 	padding-top: 1.5em;
 }
@@ -76,7 +74,7 @@ h4 {
         width: 100%;
     }
     ul.menu li {
-        padding:10px 0px 10px 10px;
+        padding:10px 0px 10px 15px;
     }
     ul.menu a {
         text-decoration: none;
@@ -286,7 +284,6 @@ div.error-message {
 p.error {
 	background-color: #e32;
 	color: #fff;
-	font-family: Courier, monospace;
 	font-size: 120%;
 	line-height: 140%;
 	padding: 0.8em;
@@ -301,7 +298,6 @@ p.error em {
 	background: #ffcc00;
 	color: #000;
 	display: block;
-	font-family: Courier, monospace;
 	font-size: 120%;
 	line-height: 140%;
 	padding: 0.8em;
