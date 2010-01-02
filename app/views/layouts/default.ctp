@@ -23,8 +23,11 @@
 <body>
 	<div id="container">
 		<div id="header">
-			<h1><?php echo $html->link(__('Jason Poon', true), 'http://jasonpoon.ca'); ?></h1>
-		</div>
+           <?php echo $html->image("header.png", array(
+               "alt" => "Jason Poon",
+               'url' => array('controller' => 'pages', 'home')
+           )); ?>
+        </div>
 
         <div id="navigation">
             <?php
@@ -35,7 +38,7 @@
                     'Portfolio' => array('controller' => 'pages', 'portfolio'),
                     'Contact' => array('controller' => 'pages', 'contact')
                     ),
-                array('class' => 'menu')    
+                array('class' => 'menu')
             );
             ?>
         </div>
@@ -49,7 +52,7 @@
 		</div>
 
 		<div id="footer">
-            Copyright © 2009. Jason Poon. All Rights Reserved | <!--VlexoFree_LinkBack-->
+            2009 ©  Jason Poon | <!--VlexoFree_LinkBack-->
 		</div>
 	</div>
 	<?php echo $cakeDebug; ?>
