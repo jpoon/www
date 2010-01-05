@@ -23,10 +23,10 @@
 <body>
 	<div id="container">
 		<div id="header">
-           <?php echo $html->image("header.png", array(
+            <?php echo $html->image("header.png", array(
                "alt" => "Jason Poon",
                'url' => array('controller' => 'pages', 'home')
-           )); ?>
+            )); ?>
         </div>
 
         <div id="navigation">
@@ -49,7 +49,7 @@
 		</div>
 
 		<div id="footer">
-            2009 © Jason Poon | <!--VlexoFree_LinkBack-->
+            Copyright © 2009, Jason Poon | <!--VlexoFree_LinkBack-->
 		</div>
 	</div>
 	<?php echo $cakeDebug; ?>
