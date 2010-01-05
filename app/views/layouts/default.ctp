@@ -11,13 +11,23 @@
 
 		echo $html->css('main');
 
+        # javascript
+        echo $javascript->link("http://www.google.com/jsapi");
+        echo $javascript->codeBlock('google.load("jquery", "1.3.2"); google.load("jqueryui", "1.7.2");');
+        echo $javascript->link('analytics');
 		echo $scripts_for_layout;
+	
 	?>
     <link rel="stylesheet" href="theme/ui.all.css" type="text/css" />
-    <script type="text/javascript" src="http://www.google.com/jsapi"></script>
     <script type="text/javascript">
-        google.load("jquery", "1.3.2")
-        google.load("jqueryui", "1.7.2")
+        var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+        document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+    </script>
+    <script type="text/javascript">
+        try {
+        var pageTracker = _gat._getTracker("UA-12315023-1");
+            pageTracker._trackPageview();
+        } catch(err) {}
     </script>
 </head>
 <body>
