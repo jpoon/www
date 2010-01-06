@@ -1,7 +1,3 @@
-
-
-
-
 /*
 * jQuery UI CSS Framework
 * Copyright (c) 2009 AUTHORS.txt (http://jqueryui.com/about)
@@ -15,7 +11,7 @@
 .ui-widget { font-family: \\\'lucida grande\\\',verdana,helvetica,arial,sans-serif;; font-size: 1.1em; }
 .ui-widget input, .ui-widget select, .ui-widget textarea, .ui-widget button { font-family: \\\'lucida grande\\\',verdana,helvetica,arial,sans-serif;; font-size: 1em; }
 .ui-widget-content { border: 1px solid #666666; background: #191919 url(images/ui-bg_diagonals-small_25_191919_40x40.png) 50% 50% repeat; color: #ffffff; }
-.ui-widget-content a { color: #ffffff; }
+.ui-widget-content a { color: #ff9c08; }
 .ui-widget-header { border: 1px solid #333333; background: #ff9c08 url(images/ui-bg_gloss-wave_25_ff9c08_500x100.png) 50% 50% repeat-x; color: #ffffff; font-weight: bold; }
 .ui-widget-header a { color: #ffffff; }
 
