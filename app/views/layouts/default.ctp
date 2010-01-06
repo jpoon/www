@@ -15,8 +15,8 @@
         echo $javascript->link("http://www.google.com/jsapi");
         echo $javascript->codeBlock('google.load("jquery", "1.3.2"); google.load("jqueryui", "1.7.2");');
         echo $javascript->link('analytics');
+
 		echo $scripts_for_layout;
-	
 	?>
     <link rel="stylesheet" href="theme/ui.all.css" type="text/css" />
     <script type="text/javascript">
@@ -55,6 +55,7 @@
 
 		<div id="content">
 			<?php $session->flash(); ?>
+
 			<?php echo $content_for_layout; ?>
 		</div>
 
