@@ -9,8 +9,8 @@
 	<?php
 		echo $html->meta('icon');
 
-		echo $html->css('main');
         echo $html->css('theme/ui.all');
+		echo $html->css('main');
 
         # javascript
         echo $javascript->link("http://www.google.com/jsapi");
