@@ -113,6 +113,19 @@
                 <dd>Created a VPN client that would establish a secure connection using AES for encryption and an MD5 hash and message sequence number for data integrity.</dd>
             </dl>
 
+            <li>Bootstrap Service</li>
+            <dl>
+                <dt>Sourcecode:</dt>
+                <dd><?php echo $html->link('bootstrap.sh', 'http://www.jasonpoon.ca/files/bootstrap.sh'); ?></dd>
+
+                <dt>Languages:</dt>
+                <dd>Bash</dd>
+
+                <dt>Description:</dt>
+                <dd>Bootstrap script is used to install and execute certain instructions on a set of machines. To be precise, this script will install various programs (e.g. make, gcc, git, etc.), clone multiple git repositories, and from within the newly downloaded repositories, start a server</dd>
+            </dl>
+
+
             <li>Website Updater</li>
             <dl>
                 <dt>Sourcecode:</dt>
