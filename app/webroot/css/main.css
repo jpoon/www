@@ -97,6 +97,11 @@ h4 {
     color: #4a4a4a;
 }
 
+/* Pages */
+#accordion li {
+    font-weight: bold;
+}
+
 /* Tables */
 table {
 	clear: both;
@@ -151,25 +156,20 @@ div.paging span.current {
 }
 div.paging span a {
 }
-
 /* Scaffold View */
 dl {
-	line-height: 2em;
-	margin: 0em 0em;
-	width: 60%;
+    margin: 0px;
+    padding: 0 0 8px 0px;
 }
-dl.altrow {
-	background: #f4f4f4;
-}
+
 dt {
-	font-weight: bold;
-	padding-left: 4px;
-	vertical-align: top;
+    float: left;
+    font-style: oblique;
 }
+
 dd {
-	margin-left: 10em;
-	margin-top: -2em;
-	vertical-align: top;
+    margin: 0px 0px 2px 100px;
+    padding: 0px;
 }
 
 /* Forms */
