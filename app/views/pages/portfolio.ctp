@@ -1,4 +1,4 @@
-<p>An incomplete collection of personal, work-related, or school-related projects that I have worked on in the past.</p><br/>
+<p>An incomplete collection of personal, work-related, and school-related projects that I have worked on in the past.</p><br/>
 
 <?php
 #    echo $javascript->link('sh/shCore');
