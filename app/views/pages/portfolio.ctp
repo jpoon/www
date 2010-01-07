@@ -122,7 +122,7 @@
                 <dd>Batch File (cmd.exe)</dd>
 
                 <dt>Description:</dt>
-                <dd>In order to accomodate individuals who possess no knowledge of FTP, this batch file can be executed to update the required web files.</dd> 
+                <dd>In order to accomodate individuals who possess no knowledge of FTP, this batch file can be executed to update the required web files with a single click of the mouse.</dd> 
 
             </dl>
 
