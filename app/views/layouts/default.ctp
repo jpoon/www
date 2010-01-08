@@ -41,15 +41,17 @@
 
         <div id="navigation">
             <?php
-            echo $listmenu->create (
-                array(
-                    'Home' => array('controller' => 'pages', 'home'),
-                    'Resume' => array('controller' => 'pages', 'resume'),
-                    'Portfolio' => array('controller' => 'pages', 'portfolio'),
-                    'Contact' => array('controller' => 'pages', 'contact')
-                    ),
-                array('class' => 'menu')
-            );
+            if (isset($listmenu)) {
+                echo $listmenu->create (
+                    array(
+                        'Home' => array('controller' => 'pages', 'home'),
+                        'Resume' => array('controller' => 'pages', 'resume'),
+                        'Portfolio' => array('controller' => 'pages', 'portfolio'),
+                        'Contact' => array('controller' => 'pages', 'contact')
+                        ),
+                    array('class' => 'menu')
+                );
+            } 
             ?>
         </div>
 
