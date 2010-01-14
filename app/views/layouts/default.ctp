@@ -7,8 +7,14 @@
 		<?php echo $title_for_layout; ?>
 	</title>
 	<?php
+        # metadata
 		echo $html->meta('icon');
+        echo $html->meta('keywords',
+                         'jason, poon, resume, computer, engineer');
+        echo $html->meta('description',
+                         'Porfolio of Jason Poon');
 
+        # css
         echo $html->css('theme/ui.all');
 		echo $html->css('main');
 
