@@ -34,7 +34,11 @@
             <li>Application Based TCP Hijacking (ABTH)</li>
             <dl>
                 <dt>Paper:</dt>
-                <dd><?php echo $html->link('ACM Portal', 'http://portal.acm.org/citation.cfm?id=1519144.1519146'); ?></dd>
+                <dd>
+                    <?php echo $html->link('ACM Portal', 'http://portal.acm.org/citation.cfm?id=1519144.1519146'); ?>
+                     or 
+                    <?php echo $html->link('direct download', 'http://www.jasonpoon.ca/files/abth.pdf'); ?>
+                </dd>
 
                 <dt>Description:</dt>
                 <dd>Co-wrote a paper that was accepted for publication by EuroSec where I subsequently travelled to EuroSec '09 in Germany to present a talk on ABTH. The paper describes a new form of attacking a TCP connection that exploits flaws due to the interplay between TCP and application protocols.</dd>
