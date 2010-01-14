@@ -68,17 +68,29 @@ h4 {
         -webkit-border-radius:5px;
         behavior:url(border-radius.htc);
     }
+    
+    ul.menu a {
+        display:block;
+        padding:10px 0px 10px 15px;
+        text-decoration: none;
+    }
+
+    ul.menu li:hover {
+        background-color: #0078a3;
+        -moz-border-radius:5px;
+        -webkit-border-radius:5px;
+        behavior:url(border-radius.htc);
+    }
+ 
     ul.menu {
         list-style-type: none;
         margin: 0;
         width: 100%;
     }
+
     ul.menu li {
-        padding:10px 0px 10px 15px;
+        margin:5px 0px 5px 0px;
     }
-    ul.menu a {
-        text-decoration: none;
-    } 
 
 #content{
     float: right;
