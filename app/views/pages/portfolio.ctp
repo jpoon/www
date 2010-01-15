@@ -100,6 +100,20 @@
                 <dt>Description:</dt>
                 <dd>In order to eliminate the chaos associated with paper membership forms, created a membership registration page.</dd>
             </dl>
+
+            <li>Jeanette Ball Dance</li>
+            <dl>
+                <dt>Website:</dt>
+                <dd><?php echo $html->link('jeanetteballdance.com', 'http://www.jeanetteballdance.com');?></dd>
+
+                <dt>Languages:</dt>
+                <dd>ASP.NET, C#, Javascript, CSS</dd>
+
+                <dt>Description:</dt>
+
+                <dd>Volunteered my services to create a homepage for my dance teacher, Jeanette Ball.</dd>
+            </dl>
+ 
         </ul>
     </div>
     <h3><a href="#">Scripting</a></h3>
@@ -150,6 +164,9 @@
 
                 <dt>Languages:</dt>
                 <dd>Perl</dd>
+
+                <dt>Description:</dt>
+                <dd>As I'm a rather organized individual, I require that my music files be nicely titled in a certain format, namely "[Author] - [Song Title]". Created a perl script that would go through my music renaming my files to follow this format.</dd>
             </dl>
     </div>
 </div>
