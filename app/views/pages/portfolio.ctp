@@ -41,7 +41,7 @@
                 </dd>
 
                 <dt>Description:</dt>
-                <dd>Co-wrote a paper that was accepted for publication by EuroSec where I subsequently travelled to EuroSec '09 in Germany to present a talk on ABTH. The paper describes a new form of attacking a TCP connection that exploits flaws due to the interplay between TCP and application protocols.</dd>
+                <dd>Did you know Windows Live Messenger is filled with security vulnerabilities? Read the paper I co-wrote and you'll be amazed at how easy it is to impersonate someone. It was so amazing that it was accepted for publication by EuroSec where I subsequently travelled to EuroSec '09 in Germany to present a talk on Applicaton-Based TCP Hijacking (ABTH). ABTH is a new form of attacking a TCP connection that exploits flaws due to the interplay between TCP and application protocols.</dd>
 
             </dl>
         </ul>
@@ -80,13 +80,13 @@
             <li>UBC Badminton Club</li>
             <dl>
                 <dt>Website:</dt>
-                <dd><?php echo $html->link('www.ams.ubc.ca/clubs/badminton', 'http://www.ams.ubc.ca/clubs/badminton')?></dd>
+                <dd><?php echo $html->link('version 1', 'http://www.ams.ubc.ca/clubs/badminton')?> and <?php echo $html->link('version 2', 'http://www.ams.ubc.ca/clubs/badminton/old')?></dd>
 
                 <dt>Languages:</dt>
                 <dd>PHP, Javascript (JQuery), CSS</dd>
 
                 <dt>Description:</dt>
-                <dd>As webmaster, then president, of the UBC Badminton Club, completely transformed the webpage from a 1990's style webpage to a more modern yet simple design. Focused on writing easily understandable and editable code allowing individuals without any PHP/HTML knowledge the ability to easily modify the website.</dd>
+                <dd>When I first inherited the webpage from my predecessor, it looked similar to <?php echo $html->link('this', 'http://www.chimesdesign.com/fugly_site/index.html')?>. As my eyes were beginning to bleed, I redesigned the webpage to <?php echo $html->link('have a more simple yet modern theme', 'http://www.ams.ubc.ca/clubs/badminton/old')?>. I focused on writing easily understandable code such that anyone without any PHP/HTML knowledge could update the website. However, this assumption was horribly wrong so I redesigned the webpage <?php echo $html->link('again', 'http://www.ams.ubc.ca/clubs/badminton')?> this time using Wordpress.</dd>
             </dl>
 
             <li>UBC Badminton Club - Member Registration</li>
@@ -153,7 +153,7 @@
                 <dd>Batch File (cmd.exe)</dd>
 
                 <dt>Description:</dt>
-                <dd>In order to accomodate individuals who possess no knowledge of FTP, this batch file can be executed to update the required web files with a single click of the mouse.</dd> 
+                <dd>It was irritating having to open up an FTP client to manually drag each and every updated file to the web server. I eventually got fed up and wrote this batch script which would essentially grab all the files in a certain directory and upload them to the web server with a single click of the mouse.</dd>
 
             </dl>
 
