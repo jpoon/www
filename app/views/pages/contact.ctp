@@ -1,1 +1,1 @@
-Email: <?php echo $html->link('webmail@jasonpoon.ca', 'mailto://webmail@jasonpoon.ca'); ?>
+Email: <a href="http://mailhide.recaptcha.net/d?k=01bNF9oeBH_7wJGYwHsLLnCg==&amp;c=zeip2omJk4Na-Qyi9iZHCtgCQ7_28wWAF037LgS2uls=" onclick="window.open('http://mailhide.recaptcha.net/d?k=01bNF9oeBH_7wJGYwHsLLnCg==&amp;c=zeip2omJk4Na-Qyi9iZHCtgCQ7_28wWAF037LgS2uls=', '', 'toolbar=0,scrollbars=0,location=0,statusbar=0,menubar=0,resizable=0,width=500,height=300'); return false;" title="Reveal this e-mail address">web...@jasonpoon.ca</a>
