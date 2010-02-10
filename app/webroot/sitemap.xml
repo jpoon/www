@@ -21,6 +21,16 @@
   <changefreq>monthly</changefreq>
 </url>
 <url>
+  <loc>hhttp://jasonpoon.ca/pages/portfolio/music-rename</loc>
+  <priority>0.50</priority>
+  <changefreq>yearly</changefreq>
+</url>
+<<url>
+  <loc>hhttp://jasonpoon.ca/pages/portfolio/bootstrap</loc>
+  <priority>0.50</priority>
+  <changefreq>yearly</changefreq>
+</url>
+<url>
   <loc>http://jasonpoon.ca/pages/contact/</loc>
   <priority>0.80</priority>
   <changefreq>monthly</changefreq>
