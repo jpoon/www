@@ -1,24 +1,5 @@
 <p>An incomplete collection of personal, work-related, and school-related projects that I have worked on in the past.</p><br/>
 
-<?php
-#    echo $javascript->link('sh/shCore');
-#    echo $javascript->link('sh/shBrushJScript');
-#    echo $javascript->codeBlock('SyntaxHighlighter.all()');
-#    echo $html->css('shCore');
-#    echo $html->css('shThemeDefault');
-?>
-<!--	
-<pre class="brush: js">
-    /**
-     * SyntaxHighlighter
-     */
-    function foo()
-    {
-        // it works!
-    }
-</pre>
--->
-
 <script type="text/javascript">
     $(document).ready(function() {
         $("#accordion").accordion({
@@ -40,9 +21,13 @@
                     <?php echo $html->link('direct download', 'http://www.jasonpoon.ca/files/abth.pdf'); ?>
                 </dd>
 
-                <dt>Description:</dt>
-                <dd>Did you know Windows Live Messenger is filled with security vulnerabilities? Read the paper I co-wrote and you'll be amazed at how easy it is to impersonate someone. It was so amazing that it was accepted for publication by EuroSec where I subsequently travelled to EuroSec '09 in Germany to present a talk on Applicaton-Based TCP Hijacking (ABTH). ABTH is a new form of attacking a TCP connection that exploits flaws due to the interplay between TCP and application protocols.</dd>
+                <dt>Co-Authors:</dt>
+                <dd><?php echo $html->link('Dr. Konstantin Beznosov', 'http://konstantin.beznosov.net');?> and <?php echo $html->link('Oliver Zheng', 'http://oliverzheng.com');?></dd>
 
+                <dt>Description:</dt>
+                <dd>By exploiting flaws between the interplay of TCP and application-level protocols, ABTH was capable of quiety injecting TCP packets without the user noticing the attack. </dd>
+                <dd>In the case of Windows Live Messenger and its underlying application-level protocol (Microsoft Notification Protocol) by using ABTH, an attacker was capable of impersonating anybody of his choosing and start a conversation with the victim. Read the paper for more details.</dd>
+                <dd>ABTH had its beginnings as a student project for a university course <?php echo $html->link('(EECE412 - Introduction to Computer Security)', 'http://courses.ece.ubc.ca/412/');?> and was eventually published in the Proceedings of EuroSec 2009. As an added bonus, we were invited to the workshop to present our findings where I had an <i>almost-all-expenses</i> paid trip to Nuremberg, Germany.</dd>
             </dl>
         </ul>
     </div>
@@ -134,7 +119,7 @@
             <li>Bootstrap Service</li>
             <dl>
                 <dt>Sourcecode:</dt>
-                <dd><?php echo $html->link('bootstrap.sh', 'http://www.jasonpoon.ca/files/bootstrap.sh'); ?></dd>
+                <dd><?php echo $html->link('bootstrap.sh', '/pages/portfolio/bootstrap'); ?></dd>
 
                 <dt>Languages:</dt>
                 <dd>Bash</dd>
@@ -160,7 +145,7 @@
             <li>Bulk File Renamer</li>
             <dl>
                 <dt>Sourcecode:</dt>
-                <dd><?php echo $html->link('music-rename.pl', 'http://www.jasonpoon.ca/files/music-rename.pl'); ?></dd>
+                <dd><?php echo $html->link('music-rename.pl', '/pages/portfolio/music-rename'); ?></dd>
 
                 <dt>Languages:</dt>
                 <dd>Perl</dd>
