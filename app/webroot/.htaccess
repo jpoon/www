@@ -7,5 +7,6 @@
     Options +FollowSymLinks 
     RewriteCond %{HTTP_HOST} .
     RewriteCond %{HTTP_HOST} !^jasonpoon\.ca
+    RewriteCond %{HTTP_HOST} !^127\.0\.0\.1
     RewriteRule (.*) http://jasonpoon.ca/$1 [R=301,L]
 </IfModule>
