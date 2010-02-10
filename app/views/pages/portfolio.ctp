@@ -98,7 +98,7 @@
                 <dd>Python, Google App Engine SDK, Javascript, CSS</dd>
 
                 <dt>Description:</dt>
-                <dd>In order to eliminate the chaos associated with paper membership forms, created a membership registration page.</dd>
+                <dd>Paper Forms = Chaos. Online Registration != Chaos. App Engine = Awesome.</dd>
             </dl>
 
             <li>Jeanette Ball Dance</li>
@@ -111,7 +111,7 @@
 
                 <dt>Description:</dt>
 
-                <dd>Volunteered my services to create a homepage for my dance teacher, Jeanette Ball.</dd>
+                <dd>Being the awesome person that I am, I offered my dance teacher help in redesign her webpage. If you are ever in need of ballroom dance lessons in the Seattle area, I'd recommend Jeanette Ball</dd>
             </dl>
  
         </ul>

@@ -1,3 +1,5 @@
+Redirect 301 /mail http://mail.google.com/a/jasonpoon.ca
+
 <IfModule mod_rewrite.c>
    RewriteEngine on
    RewriteRule    ^$ app/webroot/    [L]
