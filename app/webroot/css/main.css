@@ -8,7 +8,7 @@ body {
     background: #191919 url('../img/bg.png') repeat-x top;
     color: #ffffff;
 	font-family: 'lucida grande',verdana,helvetica,arial,sans-serif;
-	font-size: 85%;
+	font-size: 80%;
     line-height: 125%;
 }
 a {
@@ -93,7 +93,7 @@ h4 {
         margin:5px 0px 5px 0px;
     }
 
-#content{
+#content {
     float: right;
     padding: 0px 0px 50px 0px;
     width: 750px;
@@ -113,6 +113,11 @@ h4 {
 /* Pages */
 #accordion li {
     font-weight: bold;
+}
+
+#portfolioCode {
+    height:400px;
+    overflow:auto;
 }
 
 /* Tables */
@@ -172,7 +177,7 @@ div.paging span a {
 /* Scaffold View */
 dl {
     margin: 0px;
-    padding: 0 0 8px 0px;
+    padding: 0 0 10px 0px;
 }
 
 dt {
@@ -181,8 +186,12 @@ dt {
 }
 
 dd {
-    margin: 0px 0px 2px 100px;
+    margin: 0px 0px 3px 100px;
     padding: 0px;
+}
+
+dd p {
+    padding: 0 0 8px 0;
 }
 
 /* Forms */
