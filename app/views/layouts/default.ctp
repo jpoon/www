@@ -10,9 +10,9 @@
         # metadata
 		echo $html->meta('icon');
         echo $html->meta('keywords',
-                         'jason poon, jason, poon, resume, portfolio, university of british columbia, computer engineer, git, abth');
+                         'jason poon, jason, poon, resume, portfolio, university of british columbia, computer engineer, git, abth, ubc badminton club, ubc');
         echo $html->meta('description',
-                         'I am Jason Poon -- a snowboarder, a nerd, and a code monkey.');
+                         'I am Jason Poon -- a proud Canadian, a computer engineer, a snowboarder, a dancer, and a code monkey.');
 
         # css
         echo $html->css('theme/ui.all');
