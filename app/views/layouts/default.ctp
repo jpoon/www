@@ -68,7 +68,7 @@
 		</div>
 
 		<div id="footer">
-            Copyright © 2009, Jason Poon | <!--VlexoFree_LinkBack-->
+            Copyright © 2010, Jason Poon | <!--VlexoFree_LinkBack-->
 		</div>
 	</div>
 	<?php echo $cakeDebug; ?>
