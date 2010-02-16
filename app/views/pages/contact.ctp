@@ -1,1 +1,15 @@
-Email: <a href="http://mailhide.recaptcha.net/d?k=01bNF9oeBH_7wJGYwHsLLnCg==&amp;c=zeip2omJk4Na-Qyi9iZHCtgCQ7_28wWAF037LgS2uls=" onclick="window.open('http://mailhide.recaptcha.net/d?k=01bNF9oeBH_7wJGYwHsLLnCg==&amp;c=zeip2omJk4Na-Qyi9iZHCtgCQ7_28wWAF037LgS2uls=', '', 'toolbar=0,scrollbars=0,location=0,statusbar=0,menubar=0,resizable=0,width=500,height=300'); return false;" title="Reveal this e-mail address">web...@jasonpoon.ca</a>
+<?php echo $html->image("mail.png", array(
+        'url' => "mailto:webmail@jasonpoon.ca",
+        'height' => '50px',
+        'title' => 'email')) ?>
+
+<?php echo $html->image("facebook.jpg", array(
+        'url' => "http://www.facebook.com/jaspoon",
+        'height' => '50px',
+        'title' => 'facebook')) ?>
+
+<?php echo $html->image("linkedin.jpg", array(
+        'url' => "http://ca.linkedin.com/in/poonjas",
+        'height' => '50px',
+        'title' => 'linkedin')) ?>
+
