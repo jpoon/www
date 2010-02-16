@@ -27,7 +27,7 @@
                 <dt>Description:</dt>
                 <dd>By exploiting flaws between the interplay of TCP and application-level protocols, ABTH was capable of quiety injecting TCP packets without the user noticing the attack. </dd>
                 <dd>In the case of Windows Live Messenger and its underlying application-level protocol (Microsoft Notification Protocol) by using ABTH, an attacker was capable of impersonating anybody of his choosing and start a conversation with the victim. Read the paper for more details.</dd>
-                <dd>ABTH had its beginnings as a student project for a university course <?php echo $html->link('(EECE412 - Introduction to Computer Security)', 'http://courses.ece.ubc.ca/412/');?> and was eventually published in the Proceedings of EuroSec 2009. As an added bonus, we were invited to the workshop to present our findings where I had an <i>almost-all-expenses</i> paid trip to Nuremberg, Germany.</dd>
+                <dd>ABTH had its beginnings as a student project for a university course <?php echo $html->link('(EECE412 - Introduction to Computer Security)', 'http://courses.ece.ubc.ca/412/');?> and was eventually published in the Proceedings of <?php echo $html->link('EuroSec 2009', 'http://www.ics.forth.gr/dcs/eurosec09/')?>. As an added bonus, we were invited to the workshop to present our findings where I had an <i>almost-all-expenses</i> paid trip to Nuremberg, Germany.</dd>
             </dl>
         </ul>
     </div>
@@ -65,25 +65,14 @@
             <li>UBC Badminton Club</li>
             <dl>
                 <dt>Website:</dt>
-                <dd><?php echo $html->link('version 1', 'http://www.ams.ubc.ca/clubs/badminton')?> and <?php echo $html->link('version 2', 'http://www.ams.ubc.ca/clubs/badminton/old')?></dd>
+                <dd><?php echo $html->link('www.ams.ubc.ca/clubs/badminton', 'http://www.ams.ubc.ca/clubs/badminton')?></dd>
 
                 <dt>Languages:</dt>
-                <dd>PHP, Javascript (JQuery), CSS</dd>
+                <dd>PHP, Python, Google App Engine SDK, Javascript (JQuery), CSS</dd>
 
                 <dt>Description:</dt>
-                <dd>When I first inherited the webpage from my predecessor, it looked similar to <?php echo $html->link('this', 'http://www.chimesdesign.com/fugly_site/index.html')?>. As my eyes were beginning to bleed, I redesigned the webpage to <?php echo $html->link('have a more simple yet modern theme', 'http://www.ams.ubc.ca/clubs/badminton/old')?>. I focused on writing easily understandable code such that anyone without any PHP/HTML knowledge could update the website. However, this assumption was horribly wrong so I redesigned the webpage <?php echo $html->link('again', 'http://www.ams.ubc.ca/clubs/badminton')?> this time using Wordpress.</dd>
-            </dl>
-
-            <li>UBC Badminton Club - Member Registration</li>
-            <dl>
-                <dt>Website:</dt>
-                <dd><?php echo $html->link('ubc-badm.appspot.com/register (login required)', 'http://ubc-badm.appspot.com/register')?></dd>
-
-                <dt>Languages:</dt>
-                <dd>Python, Google App Engine SDK, Javascript, CSS</dd>
-
-                <dt>Description:</dt>
-                <dd>Paper Forms = Chaos. Online Registration != Chaos. App Engine = Awesome.</dd>
+                <dd><p>When I became the webmaster for the UBC Badminton Club, I inherited a webpage that looked similar to <?php echo $html->link('this', 'http://www.chimesdesign.com/fugly_site/index.html')?>. As my eyes were beginning to bleed, I completely redesigned the webpage to <?php echo $html->link('have a more simplistic theme', 'http://www.ams.ubc.ca/clubs/badminton/old')?>. As the webpage would be passed on to future executives of the badminton club who may or may not have knowledge in PHP, I focused on writing easily understandable code such that anyone without the necessary web knowledge could update the website. Unfortunately, this assumption was horribly wrong so I redesigned the website <?php echo $html->link('again', 'http://www.ams.ubc.ca/clubs/badminton')?> this time using Wordpress.</p>
+                    <p>Every year, the UBC Badminton Club has a membership drive. As paper forms = chaos and online registration != chaos, I created an online registration system which resulted in app engine = awesome. Although you require the UBC Badminton credentials to login, the registration system is hosted at <?php echo $html->link('ubc-badm.appspot.com/register', 'http://ubc-badm.appspot.com/register')?>.</p></dd>
             </dl>
 
             <li>Jeanette Ball Dance</li>
@@ -96,7 +85,7 @@
 
                 <dt>Description:</dt>
 
-                <dd>Being the awesome person that I am, I offered my dance teacher help in redesign her webpage. If you are ever in need of ballroom dance lessons in the Seattle area, I'd recommend Jeanette Ball</dd>
+                <dd>I offered my dance teacher help in redesign her webpage. If you are ever in need of ballroom dance lessons in the Seattle area, I'd recommend Jeanette Ball</dd>
             </dl>
  
         </ul>
