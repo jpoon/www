@@ -110,6 +110,14 @@ h4 {
     color: #4a4a4a;
 }
 
+#footer_left {
+    float:left;
+}
+
+#footer_right {
+    float: right;
+}
+
 /* Pages */
 #accordion li {
     font-weight: bold;

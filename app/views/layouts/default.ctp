@@ -68,7 +68,14 @@
 		</div>
 
 		<div id="footer">
+            <div id="footer_left">
+                <?php echo $html->link('E-Mail', 'mailto:webmail@jasonpoon.ca'); ?> |
+                <?php echo $html->link('Facebook', 'http://www.facebook.com/jaspoon'); ?> |
+                <?php echo $html->link('LinkedIn', 'http://ca.linkedin.com/in/poonjas'); ?>
+            </div>
+            <div id="footer_right">
             Copyright © 2010, Jason Poon | <!--VlexoFree_LinkBack-->
+            </div>
 		</div>
 	</div>
 	<?php echo $cakeDebug; ?>
