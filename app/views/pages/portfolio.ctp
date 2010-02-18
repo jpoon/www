@@ -23,9 +23,8 @@
                 <dd><?php echo $html->link('Dr. Konstantin Beznosov', 'http://konstantin.beznosov.net');?> and <?php echo $html->link('Oliver Zheng', 'http://oliverzheng.com');?></dd>
 
                 <dt>Description:</dt>
-                <dd><p>By exploiting flaws between the interplay of TCP and application-level protocols, ABTH was capable of quiety injecting TCP packets without the user noticing the attack.</p>
-                    <p>In the case of Windows Live Messenger and its underlying application-level protocol (Microsoft Notification Protocol) by using ABTH, an attacker was capable of impersonating anybody of his choosing and start a conversation with the victim. Read the paper for more details.</p>
-                    <p>ABTH had its beginnings as a student project for a university course <?php echo $html->link('(EECE412 - Introduction to Computer Security)', 'http://courses.ece.ubc.ca/412/');?> and was eventually published in the Proceedings of <?php echo $html->link('EuroSec 2009', 'http://www.ics.forth.gr/dcs/eurosec09/')?>. As an added bonus, we were invited to the workshop to present our findings where I had an <i>almost-all-expenses</i> paid trip to Nuremberg, Germany.</p>
+                <dd><p>By exploiting flaws between the interplay of TCP and application-level protocols, ABTH was capable of quiety injecting TCP packets. In the case of Windows Live Messenger and its underlying protocol (Microsoft Notification Protocol), by using ABTH, an attacker was capable of impersonating anybody of his/her choosing and start a conversation with the victim. Read the paper for more details.</p>
+                    <p>ABTH had its beginnings as a course project for <?php echo $html->link('EECE412', 'http://courses.ece.ubc.ca/412/'); ?> and would eventually be published in the Proceedings of <?php echo $html->link('EuroSec 2010', 'http://www.ics.forth.gr/dcs/eurosec09/'); ?>. As an added bonus, we were invited to present our findings at the workshop in Nuremberg, Germany.
             </dl>
         </ul>
     </div>
@@ -39,6 +38,9 @@
 
                 <dt>Languages:</dt>
                 <dd>C</dd>
+
+                <dt>Groupmates:</dt>
+                <dd>Adnan Jiwani, Jay Wakefield, Manasi Kulkarni, Mohammed Taher</dd>
 
                 <dt>Description:</dt>
                 <dd>The RFID Library Management System was a project created for <?php echo $html->link('EECE375', 'http://courses.ece.ubc.ca/474/'); ?>. In essence, we built a remote handheld device capable of reading RFID-tagged books where the handheld unit would communicate to base station via Zigbee.</dd>
