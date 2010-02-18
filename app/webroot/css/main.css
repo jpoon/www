@@ -22,12 +22,11 @@ a:hover {
 a img {
 	border:none;
 }
-h1, h2, h3, h4 {
-	font-weight: normal;
-}
 h1 {
-	font-size: 100%;
-	margin: 0.1em 0;
+	font-size: 110%;
+	margin: 0.1em 0 0.5em 0;
+    padding: 0 0 5px 0;
+    border-bottom: 1px solid #888888;
 }
 h2 {
 	color: #e32;
