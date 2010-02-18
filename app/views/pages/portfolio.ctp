@@ -1,4 +1,4 @@
-<p>An incomplete collection of personal, work-related, and school-related projects that I have worked on in the past.</p><br/>
+<p>An <i>incomplete</i> collection of personal, work-related, and school-related projects that I have worked on in the past.</p><br/>
 
 <script type="text/javascript">
     $(document).ready(function() {
@@ -17,17 +17,15 @@
                 <dt>Paper:</dt>
                 <dd>
                     <?php echo $html->link('ACM Portal', 'http://portal.acm.org/citation.cfm?id=1519144.1519146'); ?>
-                     or 
-                    <?php echo $html->link('direct download', 'http://www.jasonpoon.ca/files/abth.pdf'); ?>
                 </dd>
 
                 <dt>Co-Authors:</dt>
                 <dd><?php echo $html->link('Dr. Konstantin Beznosov', 'http://konstantin.beznosov.net');?> and <?php echo $html->link('Oliver Zheng', 'http://oliverzheng.com');?></dd>
 
                 <dt>Description:</dt>
-                <dd>By exploiting flaws between the interplay of TCP and application-level protocols, ABTH was capable of quiety injecting TCP packets without the user noticing the attack. </dd>
-                <dd>In the case of Windows Live Messenger and its underlying application-level protocol (Microsoft Notification Protocol) by using ABTH, an attacker was capable of impersonating anybody of his choosing and start a conversation with the victim. Read the paper for more details.</dd>
-                <dd>ABTH had its beginnings as a student project for a university course <?php echo $html->link('(EECE412 - Introduction to Computer Security)', 'http://courses.ece.ubc.ca/412/');?> and was eventually published in the Proceedings of <?php echo $html->link('EuroSec 2009', 'http://www.ics.forth.gr/dcs/eurosec09/')?>. As an added bonus, we were invited to the workshop to present our findings where I had an <i>almost-all-expenses</i> paid trip to Nuremberg, Germany.</dd>
+                <dd><p>By exploiting flaws between the interplay of TCP and application-level protocols, ABTH was capable of quiety injecting TCP packets without the user noticing the attack.</p>
+                    <p>In the case of Windows Live Messenger and its underlying application-level protocol (Microsoft Notification Protocol) by using ABTH, an attacker was capable of impersonating anybody of his choosing and start a conversation with the victim. Read the paper for more details.</p>
+                    <p>ABTH had its beginnings as a student project for a university course <?php echo $html->link('(EECE412 - Introduction to Computer Security)', 'http://courses.ece.ubc.ca/412/');?> and was eventually published in the Proceedings of <?php echo $html->link('EuroSec 2009', 'http://www.ics.forth.gr/dcs/eurosec09/')?>. As an added bonus, we were invited to the workshop to present our findings where I had an <i>almost-all-expenses</i> paid trip to Nuremberg, Germany.</p>
             </dl>
         </ul>
     </div>
@@ -41,9 +39,9 @@
 
                 <dt>Languages:</dt>
                 <dd>C</dd>
-                
+
                 <dt>Description:</dt>
-                <dd>The RFID Library Management System was a project created for EECE375. In essence, we built a remote handheld device capable of reading RFID-tagged books where the handheld unit would communicate to base station via Zigbee.</dd>
+                <dd>The RFID Library Management System was a project created for <?php echo $html->link('EECE375', 'http://courses.ece.ubc.ca/474/'); ?>. In essence, we built a remote handheld device capable of reading RFID-tagged books where the handheld unit would communicate to base station via Zigbee.</dd>
             </dl>
         </ul>
     </div>
@@ -68,7 +66,7 @@
                 <dd><?php echo $html->link('www.ams.ubc.ca/clubs/badminton', 'http://www.ams.ubc.ca/clubs/badminton')?></dd>
 
                 <dt>Languages:</dt>
-                <dd>PHP, Python, Google App Engine SDK, Javascript (JQuery), CSS</dd>
+                <dd>PHP, Python, Google App Engine SDK, Javascript (JQuery), CSS, WordPress</dd>
 
                 <dt>Description:</dt>
                 <dd><p>When I became the webmaster for the UBC Badminton Club, I inherited a webpage that looked similar to <?php echo $html->link('this', 'http://www.chimesdesign.com/fugly_site/index.html')?>. As my eyes were beginning to bleed, I completely redesigned the webpage to <?php echo $html->link('have a more simplistic theme', 'http://www.ams.ubc.ca/clubs/badminton/old')?>. As the webpage would be passed on to future executives of the badminton club who may or may not have knowledge in PHP, I focused on writing easily understandable code such that anyone without the necessary web knowledge could update the website. Unfortunately, this assumption was horribly wrong so I redesigned the website <?php echo $html->link('again', 'http://www.ams.ubc.ca/clubs/badminton')?> this time using Wordpress.</p>
