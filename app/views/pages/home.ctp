@@ -4,8 +4,7 @@
             $("#location").dialog({ 
                 bgiframe: true,
                 modal: true,
-                show: 'drop',
-                height: 510,
+                height: 500,
                 width: 500,
                 resizeable: false,
                 buttons: {
