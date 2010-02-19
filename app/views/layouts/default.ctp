@@ -18,7 +18,6 @@
         # javascript
         echo $javascript->link("http://www.google.com/jsapi");
         echo $javascript->codeBlock('google.load("jquery", "1.4.2"); google.load("jqueryui", "1.7.2");');
-        echo $javascript->link('analytics');
 
         echo $scripts_for_layout;
 	?>
