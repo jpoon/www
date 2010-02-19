@@ -5,6 +5,21 @@
         $("#accordion").accordion({
             autoHeight: false
         });
+
+        $("#open_rfidBlockDiagram").click(function() { 
+            $("#rfidBlockDiagram").dialog({ 
+                bgiframe: true,
+                modal: true,
+                width: 575,
+                resizeable: false,
+                buttons: {
+                    Close: function() {
+                        $(this).dialog("close");
+                    }
+                }
+            });
+            $("#rfidBlockDiagram").dialog("open"); 
+        });
     });
 </script>
 
@@ -37,15 +52,25 @@
                 <dd><?php echo $html->link('GitHub', 'http://github.com/jpoon/eece375'); ?></dd>
 
                 <dt>Languages:</dt>
-                <dd>C</dd>
+                <dd>C, PHP</dd>
 
                 <dt>Groupmates:</dt>
                 <dd>Adnan Jiwani, Jay Wakefield, Manasi Kulkarni, Mohammed Taher</dd>
 
                 <dt>Description:</dt>
-                <dd>The RFID Library Management System was a project created for <?php echo $html->link('EECE375', 'http://courses.ece.ubc.ca/474/'); ?>. In essence, we built a remote handheld device capable of reading RFID-tagged books where the handheld unit would communicate to base station via Zigbee.</dd>
+                <dd><p>The RFID Library Management System was a project created for <?php echo $html->link('EECE375', 'http://courses.ece.ubc.ca/474/'); ?>. In essence, we built a remote handheld device capable of reading RFID-tagged books where the handheld unit would communicate to base station via Zigbee. As pictures are typically worth a thousand words, here's a <?php echo $html->link('system block diagram', '#', array('id' => 'open_rfidBlockDiagram')); ?>.</p>
+                </dd>
             </dl>
         </ul>
+
+        <div id="rfidBlockDiagram" style="display:none;" title="RFID Library Management System - Block Diagram">
+            <center>
+               <?php echo $html->image("rfidLibrary_BlockDiagram.png", array(
+                        'alt' => 'RFID Library Managment System',
+                        'height' => '550px')); ?>
+            </center>
+        </div>
+
     </div>
     <h3><a href="#">Web Development</a></h3>
     <div>
