@@ -39,7 +39,7 @@
 
                 <dt>Description:</dt>
                 <dd><p>By exploiting flaws between the interplay of TCP and application-level protocols, ABTH was capable of quiety injecting TCP packets. In the case of Windows Live Messenger and its underlying protocol (Microsoft Notification Protocol), by using ABTH, an attacker was capable of impersonating anybody of his/her choosing and start a conversation with the victim. Read the paper for more details.</p>
-                    <p>ABTH had its beginnings as a course project for <?php echo $html->link('EECE412', 'http://courses.ece.ubc.ca/412/'); ?> and would eventually be published in the Proceedings of <?php echo $html->link('EuroSec 2010', 'http://www.ics.forth.gr/dcs/eurosec09/'); ?>. As an added bonus, we were invited to present our findings at the workshop in Nuremberg, Germany.
+                    <p>ABTH had its beginnings as a course project for <?php echo $html->link('EECE412', 'http://courses.ece.ubc.ca/412/'); ?> and would eventually be published in the Proceedings of <?php echo $html->link('EuroSec 2009', 'http://www.ics.forth.gr/dcs/eurosec09/'); ?>. As an added bonus, we were invited to present our findings at the workshop in Nuremberg, Germany.
             </dl>
         </ul>
     </div>
