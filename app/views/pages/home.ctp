@@ -26,7 +26,7 @@
 </div>
 
 <p>i am <?php echo $html->link(__('Jason Poon', true), 'http://jasonpoon.ca'); ?>.</p>
-<p>i am in my final year of studying computer engineering at the <?php echo $html->link('University of British Columbia', "#", array('id' => 'open_location', 'title' => 'Where on earth is this?!')) ?>.</p>
+<p>i am a new graduate of computer engineering from the <?php echo $html->link('University of British Columbia', "#", array('id' => 'open_location', 'title' => 'Where on earth is this?!')) ?>.</p>
 <p>i am usually a quiet type of person, working away on my school work, or striving for success in life.</p>
 <p>i am a computer geek, spending the majority of my waking life staring at a computer screen.</p>
 <p>i am a code monkey.</p> 
