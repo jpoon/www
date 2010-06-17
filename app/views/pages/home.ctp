@@ -29,4 +29,4 @@
 <p>i am a graduate of the <?php echo $html->link('University of British Columbia', "#", array('id' => 'open_location', 'title' => 'Where on earth is this?!')) ?> majoring in Computer Engineering (B.A.Sc).</p>
 <p>i am usually a quiet type of person, working away on my school work, or striving for success in life.</p>
 <p>i am a computer geek, spending the majority of my waking life staring at a computer screen.</p>
-<p>i am quite the hockey fan -- Go Canucks Go!
+<p>i am a badminton, hockey, soccer, and basketball player.

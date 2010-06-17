@@ -50,7 +50,6 @@
                     array(
                         'Home' => array('controller' => 'pages', 'home'),
                         'Portfolio' => array('controller' => 'pages', 'portfolio'),
-                        'Contact' => array('controller' => 'pages', 'contact')
                         ),
                     array('class' => 'menu')
                 );
