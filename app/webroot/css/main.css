@@ -166,17 +166,6 @@ td.actions a {
 	text-align: left;
 }
 
-dl dt {
-	color:#fff;
-	float:left;
-	font-weight:bold;
-	margin-right:10px;
-	width:150px;
-}
-
-dl dd {
-}
-
 /* Paging */
 div.paging {
 	background:#fff;
