@@ -7,7 +7,7 @@
 ?>
 <div id="portfolioCode">
     <pre class="brush: bash">
-    #/bin/bash
+    #!/bin/bash
 
     # Debug=1 - Verbose Logging
     # Debug=  - Limited logging
@@ -48,7 +48,7 @@
     # Python Setup Tools
     SETUP_TOOLS_PKG_NAME="setuptools-0.6c11"
     SETUP_TOOLS_PKG_TYPE="tar.gz"
-    SETUP_TOOLS_URL="http://pypi.python.org/packages/source/s/setuptools/$SETUP_TOOLS_PKG_NAME.$SETUP_TOOLS_PKG_TYPE#md5=7df2a529a074f613b509fb44feefe74e"
+    SETUP_TOOLS_URL="http://pypi.python.org/packages/source/s/setuptools/$SETUP_TOOLS_PKG_NAME.$SETUP_TOOLS_PKG_TYPE"
 
     # Python Memcache
     MEMCACHE_PKG_NAME="python-memcached-1.45"
