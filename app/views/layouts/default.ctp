@@ -64,9 +64,9 @@
 
         <div id="footer">
             <div id="footer_left">
-                <?php echo $html->image('social_networking/email_16.png', array('alt' => 'email', 'url' => 'mailto:webmail@jasonpoon.ca'))?>
-                <?php echo $html->image('social_networking/facebook_16.png', array('alt' => 'facebook', 'url' => 'http://www.facebook.com/jaspoon'))?>
-                <?php echo $html->image('social_networking/linkedin_16.png', array('alt' => 'linked.in', 'url' => 'http://www.linkedin.com/in/poonjas'))?>
+                <?php echo $html->image('social_networking/email_16.png', array('alt' => 'email', 'title' => 'email', 'url' => 'mailto:webmail@jasonpoon.ca'))?>
+                <?php echo $html->image('social_networking/facebook_16.png', array('alt' => 'facebook', 'title' => 'facebook', 'url' => 'http://www.facebook.com/jaspoon'))?>
+                <?php echo $html->image('social_networking/linkedin_16.png', array('alt' => 'linked.in', 'title' => 'linked.in', 'url' => 'http://www.linkedin.com/in/poonjas'))?>
             </div>
             <div id="footer_right">
             Copyright © 2010, Jason Poon | <!--VlexoFree_LinkBack-->
