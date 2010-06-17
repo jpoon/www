@@ -149,10 +149,12 @@ table tr td {
 }
 table tr.altrow td {
 }
+
 td.actions {
 	text-align: center;
 	white-space: nowrap;
 }
+
 td.actions a {
 	margin: 0px 6px;
 }
@@ -162,6 +164,17 @@ td.actions a {
 .cake-sql-log td {
 	padding: 4px 8px;
 	text-align: left;
+}
+
+dl dt {
+	color:#fff;
+	float:left;
+	font-weight:bold;
+	margin-right:10px;
+	width:150px;
+}
+
+dl dd {
 }
 
 /* Paging */
