@@ -8,8 +8,8 @@
     <?php
         # metadata
         echo $html->meta('icon');
-        echo $html->meta('keywords', 'jason poon, jason, poon, resume, portfolio, university of british columbia, computer engineer, git, abth, ubc badminton club, ubc');
-        echo $html->meta('description', 'I am Jason Poon -- a proud Canadian, a computer engineer, a snowboarder, a dancer, and a code monkey.');
+        echo $html->meta('keywords', 'jason poon, jason, poon, portfolio, university of british columbia, computer engineer, git, abth, ubc badminton club, ubc');
+        echo $html->meta('description', 'Hi! I am Jason Poon.');
 
         # css
         echo $html->css('theme/ui.all');
@@ -21,6 +21,8 @@
 
         echo $scripts_for_layout;
 	?>
+
+    <!-- Google Analytics -->
     <script type="text/javascript">
         var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
         document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
@@ -47,7 +49,6 @@
                 echo $listmenu->create (
                     array(
                         'Home' => array('controller' => 'pages', 'home'),
-                        'Resume' => array('controller' => 'pages', 'resume'),
                         'Portfolio' => array('controller' => 'pages', 'portfolio'),
                         'Contact' => array('controller' => 'pages', 'contact')
                         ),
@@ -64,9 +65,9 @@
 
         <div id="footer">
             <div id="footer_left">
-                <?php echo $html->link('E-Mail', 'mailto:webmail@jasonpoon.ca'); ?> |
-                <?php echo $html->link('Facebook', 'http://www.facebook.com/jaspoon'); ?> |
-                <?php echo $html->link('LinkedIn', 'http://ca.linkedin.com/in/poonjas'); ?>
+                <?php echo $html->image('social_networking/email_16.png', array('alt' => 'email', 'url' => 'mailto:webmail@jasonpoon.ca'))?>
+                <?php echo $html->image('social_networking/facebook_16.png', array('alt' => 'facebook', 'url' => 'http://www.facebook.com/jaspoon'))?>
+                <?php echo $html->image('social_networking/linkedin_16.png', array('alt' => 'linked.in', 'url' => 'http://www.linkedin.com/in/poonjas'))?>
             </div>
             <div id="footer_right">
             Copyright © 2010, Jason Poon | <!--VlexoFree_LinkBack-->
