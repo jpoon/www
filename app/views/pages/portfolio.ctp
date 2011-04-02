@@ -46,6 +46,18 @@
     <h3><a href="#">Embedded Software</a></h3>
     <div>
         <ul>
+            <li>Activity Monitor</li>
+            <dl>
+                <dt>Sourcecode:</dt>
+                <dd><?php echo $html->link('GitHub', 'http://github.com/jpoon/activity_monitor'); ?></dd>
+
+                <dt>Languages:</dt>
+                <dd>C (NanoRk RTOS), Python</dd>
+
+                <dt>Description:</dt>
+                <dd><p>For my university capstone project, I designed and developered an activity monitoring system. The system utilizes FireFly sensor nodes that are placed on different parts of an individual's body to form a wireless sensor network. Data collected from this network is wireless transmitted to a processing client where the client will use various means of analysis to classify the user's motions under one of several categories: walking, sitting, running, standing, etc.</p>
+                </dd>
+            </dl>
             <li>RFID Library Management System</li>
             <dl>
                 <dt>Sourcecode:</dt>
@@ -90,14 +102,17 @@
             <li>UBC Badminton Club</li>
             <dl>
                 <dt>Website:</dt>
-                <dd><?php echo $html->link('www.ams.ubc.ca/clubs/badminton', 'http://www.ams.ubc.ca/clubs/badminton')?></dd>
+                <dd><?php echo $html->link('ubcbadm.vlexofree.com/', 'http://ubcbadm.vlexofree.com/')?></dd>
 
                 <dt>Languages:</dt>
                 <dd>PHP, Python, Google App Engine SDK, Javascript (JQuery), CSS, WordPress</dd>
 
                 <dt>Description:</dt>
-                <dd><p>When I became the webmaster for the UBC Badminton Club, I inherited a webpage that looked similar to <?php echo $html->link('this', 'http://www.chimesdesign.com/fugly_site/index.html')?>. As my eyes were beginning to bleed, I completely redesigned the webpage to <?php echo $html->link('have a more simplistic theme', 'http://www.ams.ubc.ca/clubs/badminton/old')?>. As the webpage would be passed on to future executives of the badminton club who may or may not have knowledge in PHP, I focused on writing easily understandable code such that anyone without the necessary web knowledge could update the website. Unfortunately, this assumption was horribly wrong so I redesigned the website <?php echo $html->link('again', 'http://www.ams.ubc.ca/clubs/badminton')?> this time using Wordpress.</p>
-                    <p>Every year, the UBC Badminton Club has a membership drive. As paper forms = chaos and online registration != chaos, I created an online registration system which resulted in app engine = awesome. Although you require the UBC Badminton credentials to login, the registration system is hosted at <?php echo $html->link('ubc-badm.appspot.com/register', 'http://ubc-badm.appspot.com/register')?>.</p></dd>
+                <dd><p>When I became the webmaster for the UBC Badminton Club, I inherited a webpage that looked similar to <?php echo $html->link('this', 'http://www.chimesdesign.com/fugly_site/index.html')?>. 
+                       As my eyes were beginning to bleed, I completely redesigned the webpage using Wordpress.</p>
+                    <p>Every year, the UBC Badminton Club has a membership drive.
+                       As paper forms = chaos and online registration != chaos, I created an online registration system which resulted in app engine = awesome. 
+                       Although you require the UBC Badminton credentials to login, the registration system is hosted at <?php echo $html->link('ubc-badminton.appspot.com/register', 'http://ubc-badminton.appspot.com/')?>.</p></dd>
             </dl>
 
             <li>Jeanette Ball Dance</li>
