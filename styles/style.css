@@ -1,0 +1,418 @@
+body, p, div, h1, h2, h3, h4, h5, h6, table, tbody, tr, td, span, blockquote, a, abbr, address, cite, code, img, ul, ol, li, dl, dd, dt, form, label, fieldset, caption, input, textarea, button {
+	border:0;
+	outline:0;
+	font-family:Arial, Helvetica, Sans-Serif;
+	color:#fff;
+	vertical-align:baseline;
+	list-style:none;
+	text-decoration:none;
+	line-height:1.5em;
+	margin:0;
+	padding:0;
+}
+
+p {
+    padding-bottom: 10px;
+}
+
+body {
+    background:#8b8b8b;
+	font-size:14px
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family:Arial, Helvetica, sans-serif;
+	font-weight:bold;
+	color:#1d1d1d
+}
+h4.blue, h4.blue a {
+	font-family: 'OstrichSansBlack';
+	color: #0D4667;
+	text-shadow: 1px 1px 0px #84BBDB;
+	font-size: 22px;
+	margin-top:5px;
+    margin-bottom:5px;
+}
+
+a:link, a:visited {
+	text-decoration:underline
+}
+a, a:hover {
+	text-decoration:none
+}
+
+div#wrap {
+    width:850px;
+	margin:0 auto;
+}
+
+div#sidebar_left {
+    float:left;
+	width:125px;
+	height:100%;
+	background:#2c2c2c;
+	position:fixed;
+}
+div#container {
+	width:625px;
+    height:100%;
+    padding:0px 20px 5px 0px;
+    margin-left:125px; /* sidebar_left width */
+	position:relative;
+	background:#619ec2;
+    border-right:1px solid #2c2c2c;
+}
+div#sidebar_right {
+    float:right;
+    width:80px;
+    margin-left:770px;
+    position:fixed;
+}
+
+/* sidebar_left */
+ul#navigation {
+	top:75px;
+	position:fixed;
+    width:inherit;
+}
+ul#navigation li {
+	border:none;
+	background:none;
+	margin:0;
+	padding:0
+}
+ul#navigation li a:link, ul#navigation li a:visited {
+	text-decoration:none;
+	font-family:'OstrichSansBlack', Arial, sans-serif;
+	margin-bottom:1px;
+	width:auto;
+	font-size:20px;
+	text-align:left;
+	padding-left:10px !important;
+	display:block;
+	transition:all 200ms;
+	-webkit-transition:all 200ms;
+	-moz-transition:all 200ms;
+	-o-transition:all 200ms;
+	padding:5px 10px 5px 0
+}
+ul#navigation li a:hover, ul#navigation li a.active {
+	background:#1b1b1b;
+	color:#FFF;
+}
+
+ul#social_icons {
+    bottom:55px;
+    position:fixed;
+	background:#8e1d20;
+    width: inherit;
+    padding:6px 0px 0px 0px;
+    text-align:center;
+}
+
+ul#social_icons li {
+    float:left;
+    padding:0px 0px 0px 1px;
+}
+
+ul#social_icons img { 
+    width:40px; 
+}
+
+/* page container */
+div.page {
+	margin-bottom:0;
+}
+div.page_content {
+	padding:25px 0 40px 25px
+}
+div#container h3.page_title {
+	font-family: 'OstrichSansBlack';
+	margin-left:25px;
+	font-size:35px;
+	color:#fff;
+	border-bottom:1px solid #fff;
+	text-shadow:1px 1px 2px #185477;
+	line-height:2;
+	padding:5px 0 0px 0px
+}
+ul#works_filter {
+	float:right;
+	clear:both;
+	margin:15px 0px 15px 0px;
+}
+ul#works_filter li {
+	border:none;
+	background:none;
+	float:left;
+	padding:0;
+}
+ul#works_filter li a:link, ul#works_filter li a:visited {
+	font-size:12px;
+	text-decoration:none;
+	display:block;
+	color:#FFF;
+	margin-right:1px;
+	padding:2px 10px;
+}
+ul#works_filter li a:hover, ul#works_filter li a.selected {
+	background:#0D4667;
+	color:#fff;
+	opacity:1;
+	-webkit-border-radius: 0.2em;
+	-moz-border-radius: 0.2em;
+	border-radius: 0.2em;
+	/* IE hacks */
+    zoom: 1;
+    *display: inline;
+}
+div.footer {
+	text-align:center;
+	font-size:10px;
+    padding-bottom:10px;
+}
+
+.clear {
+	clear:both
+}
+
+input, textarea, button {
+	clear:both;
+	float:left;
+	font-style:italic;
+	margin-bottom:1px;
+	padding:10px;
+    resize: none; 
+}
+input {
+	width:97.5%;
+}
+
+button {
+	cursor:pointer;
+	margin-right:-2px !important;
+	font-style:normal
+}
+
+.button {
+	color:#fff;
+	-webkit-border-radius: 0.2em;
+	-moz-border-radius: 0.2em;
+	border-radius: 0.2em;
+	/* IE hacks */
+    zoom: 1;
+    *display: inline;
+	position: relative;
+	overflow: visible;
+	display: inline-block;
+	padding: 0.5em 1em;
+	font-size:12px;
+	margin: 0;
+	text-decoration: none;
+	white-space: nowrap;
+	cursor: pointer;
+	outline: none;
+	background-color: #0D4667;
+	-webkit-background-clip: padding-box;
+	-moz-background-clip: padding;
+	-o-background-clip: padding-box;
+	/*background-clip: padding-box;*/ /* commented out due to Opera 11.10 bug */
+    -webkit-border-radius: 0.2em;
+	-moz-border-radius: 0.2em;
+	border-radius: 0.2em;
+	/* IE hacks */
+    zoom: 1;
+    *display: inline;
+}
+.button:hover, .button:focus, .button:active {
+	border-color: #3072b3;
+	text-decoration: none;
+	color: #fff;
+	background-color: #35779d;
+}
+.button:active, .button.active {
+	color: #fff;
+	background-color: #12415c;
+}
+
+/* overrides extra padding on button elements in Firefox */
+.button::-moz-focus-inner {
+ padding: 0;
+ border: 0;
+}
+
+/* go to top */
+.gotop {
+	position:fixed;
+	right:20px;
+	bottom:20px;
+	opacity:.3;
+	padding:10px;
+	color:#fff;
+	display:block;
+	text-decoration:none;
+	text-align:center;
+	font-size:13px;
+	font-weight:bold;
+	z-index:999;
+	transition:all 300ms;
+	-webkit-transition:all 300ms
+}
+.gotop:hover {
+	color:#eee;
+	opacity:.7;
+}
+.gotop.hidden {
+	display:none;
+	opacity:0
+}
+a.gotop {
+	text-decoration:none!important
+}
+
+/* GRID */
+.grid li {
+	border: 1px solid rgba(255, 255, 255, 0.5);
+	float: left;
+	position: relative;
+	width: 24%;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	-webkit-transition: all .3s ease-in-out;
+	-moz-transition: all .3s ease-in-out;
+	-o-transition: all .3s ease-in-out;
+	-ms-transition: all .3s ease-in-out;
+	padding-left:0px !important;
+}
+.ie7 .grid li {
+	width: 20%;
+	padding-left:0px !important;
+}
+.grid li a {
+	display: block;
+}
+.grid img {
+	display: block;
+	border:0px !important;
+	width: 100%;
+	opacity: .65;
+	-ms-filter: "progid: DXImageTransform.Microsoft.Alpha(Opacity=65)";
+	filter: alpha(opacity=65);
+	-webkit-transition: all .3s ease-in-out;
+	-moz-transition: all .3s ease-in-out;
+	-o-transition: all .3s ease-in-out;
+	-ms-transition: all .3s ease-in-out;
+	transition: all .3s ease-in-out;
+}
+.grid li:hover img {
+	opacity: 1;
+	-ms-filter: "progid: DXImageTransform.Microsoft.Alpha(Opacity=100)";
+	filter: alpha(opacity=100);
+}
+/* PORTFOLIO */
+#works li:hover .original_img,  .ie7 #clients li:hover a img, .ie8 #clients li:hover a img {
+	opacity: 1;
+	-ms-filter: "progid: DXImageTransform.Microsoft.Alpha(Opacity=100)";
+	filter: alpha(opacity=100);
+}
+#works li:hover .grayscale_img {
+	opacity: 0;
+	-ms-filter: "progid: DXImageTransform.Microsoft.Alpha(Opacity=0)";
+	filter: alpha(opacity=0);
+}
+
+/* works */
+#works .broadcom:hover, #works .broadcom.active {
+	background: #e51837;
+}
+#works .rim:hover, #works .rim.active {
+	background: #0078aa;
+}
+#works .microsoft:hover, #works .microsoft.active {
+	background: #0079b0;
+}
+#works .ubc:hover, #works .ubc.active {
+	background: #eaa001;
+}
+#works .acm:hover, #works .acm.active {
+	background: #7cc0ea;
+}
+#works .ubcbadm:hover, #works .ubcbadm.active {
+	background: #353535;
+}
+#works .weightwatch:hover, #works .weightwatch.active {
+	background: #68217a;
+}
+#works .jeanetteball:hover, #works .jeanetteball.active {
+	background: #952210;
+}
+
+#tab-detail {
+    padding:15px 0px 25px 15px;
+    margin:8px 0px 0px 10px;
+	border-left:10px solid #7cb3d3;
+}
+
+/* Scaffold View */
+dl {
+    margin: 0px;
+    padding: 0 0 0 0;
+}
+
+dt {
+    float: left;
+    font-style: italic;
+}
+
+dd {
+    margin: 0px 0px 0px 65px;
+}
+
+dd p {
+    padding: 0 0 8px 0;
+}
+
+/* fonts */
+@font-face {
+	font-family: 'OstrichSansCondensedLight';
+	src: url('Fonts/ostrich-light-webfont.eot');
+	src: url('Fonts/ostrich-light-webfont.eot?#iefix') format('embedded-opentype'),  url('Fonts/ostrich-light-webfont.woff') format('woff'),  url('Fonts/ostrich-light-webfont.ttf') format('truetype'),  url('Fonts/ostrich-light-webfont.svg#OstrichSansCondensedLight') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'OstrichSansMedium';
+	src: url('Fonts/ostrich-regular-webfont.eot');
+	src: url('Fonts/ostrich-regular-webfont.eot?#iefix') format('embedded-opentype'),  url('Fonts/ostrich-regular-webfont.woff') format('woff'),  url('Fonts/ostrich-regular-webfont.ttf') format('truetype'),  url('Fonts/ostrich-regular-webfont.svg#OstrichSansMedium') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'OstrichSansBold';
+	src: url('Fonts/ostrich-bold-webfont.eot');
+	src: url('Fonts/ostrich-bold-webfont.eot?#iefix') format('embedded-opentype'),  url('Fonts/ostrich-bold-webfont.woff') format('woff'),  url('Fonts/ostrich-bold-webfont.ttf') format('truetype'),  url('Fonts/ostrich-bold-webfont.svg#OstrichSansBold') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'OstrichSansBlack';
+	src: url('Fonts/ostrich-black-webfont.eot');
+	src: url('Fonts/ostrich-black-webfont.eot?#iefix') format('embedded-opentype'),  url('Fonts/ostrich-black-webfont.woff') format('woff'),  url('Fonts/ostrich-black-webfont.ttf') format('truetype'),  url('Fonts/ostrich-black-webfont.svg#OstrichSansBlack') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'OstrichSansRoundedMedium';
+	src: url('Fonts/ostrich-rounded-webfont.eot');
+	src: url('Fonts/ostrich-rounded-webfont.eot?#iefix') format('embedded-opentype'),  url('Fonts/ostrich-rounded-webfont.woff') format('woff'),  url('Fonts/ostrich-rounded-webfont.ttf') format('truetype'),  url('Fonts/ostrich-rounded-webfont.svg#OstrichSansRoundedMedium') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'OstrichSansDashedMedium';
+	src: url('Fonts/ostrich-dashed-webfont.eot');
+	src: url('Fonts/ostrich-dashed-webfont.eot?#iefix') format('embedded-opentype'),  url('Fonts/ostrich-dashed-webfont.woff') format('woff'),  url('Fonts/ostrich-dashed-webfont.ttf') format('truetype'),  url('Fonts/ostrich-dashed-webfont.svg#OstrichSansDashedMedium') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
